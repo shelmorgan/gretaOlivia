@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  font-family: 'Arial';
+  background-color: white;
+  color: #212121;
+}
+
+#header-row {
+  background-color: #F8BBD0;
+}
+
+.mdl-tabs__tab-bar {
+  margin-bottom: 5em;
+}
+/* Square card */
+
+.card-square.mdl-card {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  border: 1px solid black;
+}
+
+.card-square > .mdl-card__title {
+  color: #727272;
+  height: 5em;
+  background: #F8BBD0;
+}
+/* Email Input */
+
+input {
+  border: 0;
+  padding: 1em;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  background: #F8BBD0;
+  color: white;
+}
+
+#emailConfirm {
+  height: 10em;
+  width: 50em;
+  margin: 2em auto;
+}
+
+
+#header-title {
+  font-family: 'Petit Formal Script';
+  color: #727272;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.page-title {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-family: 'Petit Formal Script';
+  color: #727272;
+  font-size: 3em;
+  text-transform: lowercase;
+}
+
+.about-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
